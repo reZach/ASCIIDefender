@@ -17,4 +17,13 @@
     <ProjectReference Include="..\..\Utilities\ASCIIDefender.Utilities\ASCIIDefender.Utilities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Maps\loadmaptest.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Maps\map2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

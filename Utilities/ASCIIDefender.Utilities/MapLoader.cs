@@ -6,6 +6,25 @@ namespace ASCIIDefender.Utilities
 {
     public class MapLoader
     {
+        public MapQueryResult Query()
+        {
+            MapQueryResult mapQueryResult = new MapQueryResult();
+
+            try
+            {
+                string[] directoryInfo = Directory.GetFiles(Directory.GetCurrentDirectory(), "*.txt", SearchOption.AllDirectories);
+                
+                mapQueryResult.Maps = directoryInfo;
+                mapQueryResult.Success = true;
+            }
+            catch (Exception ex)
+            {
+                mapQueryResult.Error = ex.Message;
+            }
+
+            return mapQueryResult;
+        }
+
         public MapLoadResult Load(string path)
         {
             MapLoadResult mapLoadResult = new MapLoadResult();
@@ -48,10 +67,13 @@ namespace ASCIIDefender.Utilities
         }
     }
 
-    public class MapLoadResult
+    public class MapQueryResult : Result
+    {
+        public string[] Maps { get; set; }
+    }
+
+    public class MapLoadResult : Result
     {
         public char[,] Map { get; set; }
-        public bool Success { get; set; }
-        public string Error { get; set; }
     }
 }

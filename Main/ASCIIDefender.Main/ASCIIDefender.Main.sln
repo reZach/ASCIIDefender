@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCIIDefender.Utilities", "..\..\Utilities\ASCIIDefender.Utilities\ASCIIDefender.Utilities.csproj", "{A64A47AF-D84E-4048-959B-B3A367B0E8C8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{B4AAD6CC-051E-48BC-A8BD-84A5B3B36E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCIIDefender.Entities", "..\..\Entities\ASCIIDefender.Entities\ASCIIDefender.Entities.csproj", "{F556B44C-2E1C-4FEE-8BBB-77AEB6664B28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{A64A47AF-D84E-4048-959B-B3A367B0E8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A64A47AF-D84E-4048-959B-B3A367B0E8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A64A47AF-D84E-4048-959B-B3A367B0E8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F556B44C-2E1C-4FEE-8BBB-77AEB6664B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F556B44C-2E1C-4FEE-8BBB-77AEB6664B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F556B44C-2E1C-4FEE-8BBB-77AEB6664B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F556B44C-2E1C-4FEE-8BBB-77AEB6664B28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{A0BAB561-43D2-4E86-9A61-72137BE641EC} = {CD1912FB-508B-4F90-8E99-962EDDF693A1}
 		{51CA8975-FA0E-48A0-8988-C641EFCB7C36} = {F66DCC72-ECDA-4378-AA4C-DBC8DEB29330}
 		{A64A47AF-D84E-4048-959B-B3A367B0E8C8} = {D2EDCCF4-C958-4C26-83D9-00FEE92D9A15}
+		{F556B44C-2E1C-4FEE-8BBB-77AEB6664B28} = {B4AAD6CC-051E-48BC-A8BD-84A5B3B36E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {483739E1-F6F2-40CE-9FCF-B3B4ADECC589}
