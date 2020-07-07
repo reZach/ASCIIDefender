@@ -4,6 +4,7 @@
     {
         public Player()
         {
+            Id = EntityId.Player;
             Icon = 'p';
         }
     }

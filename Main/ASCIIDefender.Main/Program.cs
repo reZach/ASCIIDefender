@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace ASCIIDefender.Main
+﻿namespace ASCIIDefender.Main
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Driver driver = new Driver();
+            driver.GameLoop();
         }
     }
 }

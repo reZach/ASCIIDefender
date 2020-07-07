@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Entities\ASCIIDefender.Entities\ASCIIDefender.Entities.csproj" />
+    <ProjectReference Include="..\..\Utilities\ASCIIDefender.Utilities\ASCIIDefender.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Maps\map1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
